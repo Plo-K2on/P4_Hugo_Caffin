@@ -317,7 +317,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: 100px;
+    margin-right: -16px;
     float: right;
     z-index: 1;
 }
@@ -438,7 +438,6 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    font-weight: bold;
 }
 
 .mg-lg {
@@ -457,7 +456,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFFFFF;
+    color: #FFF;
     background: rgba(0, 0, 0, .3);
 }
 
@@ -546,7 +545,7 @@ a[data-lightbox]:hover::before {
     margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
-    color: #FFFFFF;
+    color: #FFF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
@@ -579,7 +578,7 @@ a[data-lightbox]:hover img {
 
 .lightbox-caption {
     padding: 20px;
-    color: #FFFFFF;
+    color: #FFF;
     background: rgba(0, 0, 0, .5);
     position: absolute;
     left: 15px;
@@ -588,7 +587,7 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox {
-    color: #FFFFFF;
+    color: #FFF;
     font-size: 30px;
     position: absolute;
     top: 20px;
@@ -605,13 +604,13 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFFFFF;
+    color: #FFF;
 }
 
 .next-lightbox,
 .prev-lightbox {
     font-size: 20px;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, .9);
     background: rgba(0, 0, 0, .5);
     transition: all .2s ease-in-out;
     position: absolute;
@@ -678,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -753,10 +752,10 @@ h4 {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-/* .black-background {
-    background-color: #FFFFFF;
+.black-background {
+    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
-} */
+}
 
 .bold-link {
     font-weight: 900;
@@ -772,20 +771,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #ff5100;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: white!important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
-    background: #ff5100;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ff5100!important;
+    background: #c27956!important;
     color: #FFFFFF!important;
 }
 
@@ -794,15 +793,15 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #FFFFFF!important;
+    color: #cccccc!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #ffffff!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #FFFFFF!important;
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
@@ -849,15 +848,13 @@ h4 {
     }
 }
 
-/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { */
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-/* @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) { */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -875,10 +872,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    /* .bloc {
+    .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    } */
+    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -887,8 +884,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /* padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right); */
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -949,7 +946,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: #FFFFFF;
+        color: rgba(255, 255, 255, .6);
     }
     .hero {
         padding: 50px 0;
