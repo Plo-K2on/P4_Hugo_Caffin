@@ -285,6 +285,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    background: #ff5100;
 }
 
 .navbar {
@@ -737,7 +738,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -776,21 +777,22 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;
+    color: rgb(0, 0, 0)!important;
+    background: #ffffff;
 }
 
 .btn-atomic-tangerine {
     background: #ff5100;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #ff5100!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white:hover {
