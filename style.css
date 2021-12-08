@@ -288,6 +288,10 @@ a:hover {
     background: #ff5100;
 }
 
+.nav{
+    list-style-type: none;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
